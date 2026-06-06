@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GLConnect Feed</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- TODO: Add sidebar with navigation links -->
+
+  <div class="main-content">
+    <header class="header">
+      <h1>GLConnect</h1>
+
+      <div class="controls">
+        <select id="filterRole">
+          <option value="all">All Roles</option>
+          <option value="Engineer">Engineer</option>
+          <option value="Designer">Designer</option>
+          <option value="Manager">Manager</option>
+        </select>
+
+        <select id="sortPosts">
+          <option value="recent">Most Recent</option>
+          <option value="likes">Most Liked</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section id="feed" class="feed"></section>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

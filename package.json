@@ -1,0 +1,15 @@
+{
+    "name": "proconnect-social-feed",
+    "version": "1.0.0",
+    "description": "ProConnect - A LinkedIn-style social media posts application for learning GitHub Copilot and JavaScript fundamentals",
+
+    "keywords": [
+        "social-media",
+        "javascript",
+        "dom-manipulation",
+        "github-copilot",
+        "web-development"
+    ],
+    "author": "",
+    "license": "ISC"
+}

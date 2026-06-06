@@ -1,0 +1,74 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background-color: #f3f2ef;
+}
+
+/* TODO: Add sidebar styles */
+
+.main-content {
+  margin-left: 0;
+}
+
+.header {
+  background-color: #0a66c2;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls select {
+  margin-left: 0.5rem;
+}
+
+.feed {
+  padding: 1rem;
+}
+
+.post {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-author {
+  font-weight: bold;
+}
+
+.post-role {
+  font-size: 0.85rem;
+  color: gray;
+}
+
+.post-actions {
+  margin-top: 0.5rem;
+}
+
+.post-actions button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.post-actions button:hover {
+  background-color: #f3f2ef;
+}
+
+.post-actions button.liked {
+  background-color: #0a66c2;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #0a66c2;
+}
